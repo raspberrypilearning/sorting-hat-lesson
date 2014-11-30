@@ -25,12 +25,10 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 
 - A Raspberry Pi
 - The latest NOOBS SD card with Raspbian installed
-- A keyboard and mouse connected to the Raspberry Pi per pair
-- A monitor connected to the Raspberry Pi per pair
+- A keyboard and mouse connected to the Raspberry Pi
+- A monitor connected to the Raspberry Pi
 - A [Pibrella](http://pibrella.com)
-- 1 x Push button / switch ** (example: Large Red Push Button) 
-- Male-to-female jumper leads ** (example: Jumper Lead Cables for Arduino/Raspberry Pi)
-- 1 x speakers
+- 1 x speakers or headphones
 - Hat
 
 See [teachers setup instructions](teachers-instructions.md) for more information.

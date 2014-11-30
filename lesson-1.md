@@ -22,6 +22,7 @@ In this lesson, students will create a Raspberry Pi powered Harry Potter style s
 - Writing a python program using functions, loops and conditionals.
 
 ## Starter
+Read pages pages 85 - 97 from [harry potter and the philosopher's stone] to the class (this could have been set as homework from the priovous lesson) or alternatively if you have access to the Harry Potter and the Philosopher's Stone Film, play the sorting hat clip. You could also ask students to sort themselves into the four houses of ravenclaw, slytherin, hufflepuff and gryffindor just for fun and discuss their reasoning. 
 
 ## Main Development
 

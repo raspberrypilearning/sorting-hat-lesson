@@ -30,6 +30,14 @@ In order to create the sorting hat, students will need to install some additiona
 
 Instructions on how to [download and install the latest version can be read here](http://cymplecy.github.io/scratch_gpio/).
 
+## Download the Audio Files
+
+Students will need the following audio files to announce the house they will sort students into. Alternatively they could make their own.
+- [ravenclaw.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/ravenclaw.mp3)
+- [slytherin.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/slytherin.mp3)
+- [hufflepuff.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/hufflepuff.mp3)
+- [gryffindor.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/gryffindor.mp3)
+
 ## Making a class set of SD cards
 
 Once you have completed the steps above, you can make a copy of your master SD card and then use that to make a class set.

@@ -22,9 +22,5 @@ def randomgenerator():
         time.sleep(1)
 
 while True:
-    # wait for the button to be pressed
-    while True:
-        while pibrella.input.a.is_high():
-        # Slight pause for dramatic effect
-            time.sleep(0.1)
-            randomgenerator()
+  if pibrella.button.read():
+      rnadomgenerator()

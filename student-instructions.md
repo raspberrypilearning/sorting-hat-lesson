@@ -7,7 +7,7 @@ You will need a Pibrella board attached to the GPIO pins on your Raspberry Pi fo
 ![](images/pibrella-setup.png)
 
 
-## Connect the push button / switch using two jumper cables. 
+## Connect the push button / switch using two jumper wires
 
 Plug the male end of a male-to-female jumper wire into the input socket labelled 'A' on your Pibrella. Push a paperclip into the other end of the jumper wire. Plug the other jumper wire into the slot next to the input socket on the same row labelled 'A'. Push another paperclip into the female end of the jumper wire. Use the paperclips to connect to the button.
 

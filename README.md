@@ -27,9 +27,12 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 - 1 x Push button / switch ** (example: Large Red Push Button) 
 - Male-to-female jumper leads ** (example: Jumper Lead Cables for Arduino/Raspberry Pi)
 - 1 x speakers
-- Hat *** (See options below)
+- Hat
+
+See [teachers setup instructions](teachers-instructions.md) for more information.
 
 ## Lesson Plan
+- [Lesson 1: Raspberry Pi Sorting Hat](lesson-plan-1.md)
 
 ## Licence
 

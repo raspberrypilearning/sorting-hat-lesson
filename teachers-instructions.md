@@ -8,6 +8,13 @@ For this lesson students will need access to:
 - Latest NOOBS SD card with Raspbian installed (instructions below)
 - Pibrella Python 3 Library on each SD card (instructions below)
 - Alternatively you could use Scratch GPIO for this lesson which needs to be installed on each SD card (instructions below)
+- Audio Files and mpg123 in order to play the files.
+- A hat
+
+## Sorting Hats
+1. Official Sorting Hat (Amazon) *Official sorting hat endorsed by Warner Brothers.*
+1. Witches Hat *Replica wizards/witches hat from ilovefancydress.com*
+1. DIY (Do It Yourself) Sorting Hat *Create your very own sorting hat. (Above is the version created by team Python - Led by Simon Johnson at Picademy September 2014)*
 
 ## Downloading and installing NOOBS
 

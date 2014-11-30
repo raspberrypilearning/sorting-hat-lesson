@@ -1,8 +1,9 @@
 # Lesson 1 - Sorting Hat
 
 ## Introduction
+In this lesson, students will create a Raspberry Pi powered Harry Potter style sorting hat. Students will also learn how to connect a physical button to the Pibrella and program it to control the sorting hat.
 
-## Learning Objectives:
+## Learning Objectives
 
 - Understand and use sequence in an algorithm
 - Understand and use iteration in an algorithm (FOR and WHILE loops)
@@ -10,8 +11,15 @@
 - Understand how to control Input & Output devices 
 
 ## Learning Outcomes:
+**All students are able to:**
+
+**Most students are able to:**
+
+**Some students are able to:**
 
 ## Lesson Summary
+- Introduction to setting up a Raspberry Pi
+- Writing a python program using functions, loops and conditionals.
 
 ## Starter
 

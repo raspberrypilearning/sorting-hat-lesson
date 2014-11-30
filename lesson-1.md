@@ -32,8 +32,6 @@ Read pages pages 85 - 97 from [Harry Potter and the Philosopher's Stone](http://
 1. Direct students to attach their Pibrella to the Raspberry Pi. See [student instructions](student-instructions.md) to complete this task.
  *WARNING! The Raspberry Pi must be shutdown before connecting to GPIO.* 
 
-1. Next, students will need to connect their push button / switch to their Pibrella, see [student instructions](student-instructions.md) on how to do this. *Important! Make sure that students connect the leads to Input A.*
-
 1. Ask students to set up the rest of their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`.
   *Note that students will not see any text when typing the password but assure them it is working. Why do they think this might   be the case? Hint: what might happen if someone was looking over their shoulder?*
 

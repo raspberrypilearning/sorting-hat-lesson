@@ -1,4 +1,4 @@
-# Make a Sorting Hat
+# Raspberry Pi Sorting Hat
 
 ## Introduction
 

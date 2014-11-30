@@ -1,0 +1,30 @@
+# Sorting Hat version 2 - Uses Pibrella
+# by Raspberry Pi Certified Educator Simon Johnson and Team Python at Picademy September 2014
+
+import pibrella
+import time
+import random
+import os
+
+def randomgenerator():
+    number = random.randint(1,4)
+    if number == 1:
+        os.system ('mpg123 Gryffindor.mp3')
+        time.sleep(1)
+    elif number == 2:
+        os.system ('mpg123 Hufflepuff.mp3')
+        time.sleep(1)
+    elif number == 3:
+        os.system ('mpg123 Ravenclaw.mp3')
+        time.sleep(1)
+    else:
+        os.system ('mpg123 Slytherin.mp3')
+        time.sleep(1)
+
+while True:
+    # wait for the button to be pressed
+    while True:
+        while pibrella.input.a.is_high():
+        # Slight pause for dramatic effect
+            time.sleep(0.1)
+            randomgenerator()

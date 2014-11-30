@@ -1,5 +1,5 @@
 # Sorting Hat version 2 - Uses Pibrella
-# by Raspberry Pi Certified Educator Simon Johnson and Team Python at Picademy September 2014
+# By Raspberry Pi Certified Educator Simon Johnson, Team Python at Picademy September 2014 & Raspberry Pi Education Team
 
 import pibrella
 import time

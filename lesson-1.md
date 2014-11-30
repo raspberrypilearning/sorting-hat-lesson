@@ -4,18 +4,20 @@
 In this lesson, students will create a Raspberry Pi powered Harry Potter style sorting hat. Students will also learn how to connect a physical button to the Pibrella and program it to control the sorting hat.
 
 ## Learning Objectives
-
-- Understand and use sequence in an algorithm
-- Understand and use iteration in an algorithm (FOR and WHILE loops)
-- Understand and use selection in an algorithm (IF, Else and Else if)
-- Understand how to control Input & Output devices 
+- Know that computer programs can make decisions, and that a simple form of decision is called a conditional (If, Else and Else if).
+- Be able to devise a program to randomly sort students into different groups or houses.
 
 ## Learning Outcomes:
 **All students are able to:**
+- Use an if statement.
+- Begin to write a function containing conditionals (if, else and else if) to randomly return a house name with support.
 
 **Most students are able to:**
+- Modify code in the `if` branches to create different execution paths.
+- Write a function containing conditionals (if, else and else if) to randomly return a house name with minimal support
 
 **Some students are able to:**
+- Write a complete program in Python 3 using functions, while and for loops and conditionals (if, else and else if) with minimal support.
 
 ## Lesson Summary
 - Introduction to setting up a Raspberry Pi
@@ -27,7 +29,12 @@ Read pages pages 85 - 97 from [Harry Potter and the Philosopher's Stone](http://
 ## Main Development
 1. Demonstrate the final sorting hat project to the class by selecting students, asking them to wear the hat and then asking another student to press the button. Discuss with students what do they think is needed to make the project. Draw out through questioning and list on the board all the component pieces. Ask students to tell you if they are hardware or software related.
 
-1. Ask students to set up their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`.
+1. Direct students to attach their Pibrella to the Raspberry Pi. See [student instructions](student-instructions.md) to complete this task.
+ *WARNING! The Raspberry Pi must be shutdown before connecting to GPIO.* 
+
+1. Next, students will need to connect their push button / switch to their Pibrella, see [student instructions](student-instructions.md) on how to do this. *Important! Make sure that students connect the leads to Input A.*
+
+1. Ask students to set up the rest of their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`.
   *Note that students will not see any text when typing the password but assure them it is working. Why do they think this might   be the case? Hint: what might happen if someone was looking over their shoulder?*
 
 1. Next, students should load the graphical environment by typing `startx`. Once the desktop has loaded, show students how to open **IDLE3** either by double-clicking on the desktop icon, or by clicking on the **Main Menu** followed by **Programming** and selecting **IDLE3**.
@@ -37,6 +44,7 @@ Read pages pages 85 - 97 from [Harry Potter and the Philosopher's Stone](http://
 1. 
 
 ## Plenary
+Direct students to swap seats with another pair or group. They have a few minutes to test the other groups' programs, and suggest at least one improvement by writing a comment using the # symbol. Students should then return to their programs and make the suggested improvement.
 
 ## Extension
 

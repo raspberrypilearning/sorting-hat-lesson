@@ -94,3 +94,4 @@ while True:
 ```
 Now save and run your code. This time the program will wait for the button to be pressed before it calls the function. 
 
+![](images/sorting-hat-code.png)

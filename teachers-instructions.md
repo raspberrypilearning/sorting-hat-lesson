@@ -39,11 +39,18 @@ Instructions on how to [download and install the latest version can be read here
 
 ## Download the Audio Files
 
-Students will need the following audio files to announce the house they will sort students into. Alternatively they could make their own.
+Students will need the following audio files to announce the house they will sort students into. You can download them from the command line using the `wget` command. For example:
+
+```
+wget http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/ravenclaw.mp3
+```
+
 - [ravenclaw.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/ravenclaw.mp3)
 - [slytherin.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/slytherin.mp3)
 - [hufflepuff.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/hufflepuff.mp3)
 - [gryffindor.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/gryffindor.mp3)
+
+Alternatively students could make their own.
 
 ## Making a class set of SD cards
 

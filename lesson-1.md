@@ -35,11 +35,22 @@ Read pages pages 85 - 97 from [Harry Potter and the Philosopher's Stone](http://
 1. Ask students to set up the rest of their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`.
   *Note that students will not see any text when typing the password but assure them it is working. Why do they think this might   be the case? Hint: what might happen if someone was looking over their shoulder?*
 
-1. Next, students should load the graphical environment by typing `startx`. Once the desktop has loaded, show students how to open **IDLE3** either by double-clicking on the desktop icon, or by clicking on the **Main Menu** followed by **Programming** and selecting **IDLE3**.
+1. Next, students should load the graphical environment by typing `startx`. Once the desktop has loaded, students should be directed to load LXTerminal by double clicking on the desktop icon. Once loaded, they should type `sudo idle3 &` to load the Python 3 programming environment IDLE3 as the super user, sso that they can access the GPIO pins with their code.
   *Note that this series of lessons uses Python 3. If students run IDLE then their code may not run.*
-  Explain to students that **IDLE3** is an application or environment that allows you to write a simple program using the programming language Python. It allows you to write, edit and run code.
+  Explain to students that **IDLE3** is an application or environment that allows you to write a simple program using the programming language Python. It allows you to write, edit and run code. 
 
-1. 
+1. Ask students to click on **File** and **New Window** to open a blank text editor window. They should be directed to then click on **File** and **Save As**. They should save their file as `sorting-hat.py`.
+
+1. Recap with students the syntax for importing modules. Remind students of the list they created at the start of the lesson about the component parts they would need for the project to work. Draw out through questioning the following syntax and ask students to type it in:
+
+ ```python
+ import pibrella
+ import time
+ import random
+ import os
+ ```
+ 
+ Students may not have come across the python library `os`. This allows you to execute a shell command as if you were using the command line interface. 
 
 ## Plenary
 Direct students to swap seats with another pair or group. They have a few minutes to test the other groups' programs, and suggest at least one improvement by writing a comment using the # symbol. Students should then return to their programs and make the suggested improvement.

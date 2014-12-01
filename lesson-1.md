@@ -51,6 +51,10 @@ Read pages pages 85 - 97 from [Harry Potter and the Philosopher's Stone](http://
  ```
  
  Students may not have come across the python library `os`. This allows you to execute a shell command as if you were using the command line interface. 
+ 
+1. At this point you could set the students the task of trying to create the program depending on the ability and prior learning. You may wish to write out parts of the code and ask them to complete just the conditionals. 
+
+ All the steps to completing this program can be found in the [student instructions](student-instructions.md). The final code is also avaliable to you.  
 
 ## Plenary
 Direct students to swap seats with another pair or group. They have a few minutes to test the other groups' programs, and suggest at least one improvement by writing a comment using the # symbol. Students should then return to their programs and make the suggested improvement.

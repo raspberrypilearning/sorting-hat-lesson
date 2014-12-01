@@ -77,6 +77,20 @@ This time we have used the word `elif` this means **else if**. Else if the bumbe
 What would you type for the number 3 and the number 4?
 
 ## The program loop
+If you save and run your program now nothing will happen. That is because all the code is stored inside a function. You now need to write the code that will call that function. As you want to be able to press the button again and again each time randomly selecting a house, the function will need to be called again and again. We can use a `while True:` loop to do this.
 
+You could just type:
 
+```python
+while True:
+    randomgenerator()
+```
+then save and run your python file by clicking on **Run** and **Run Module**. Your random generator will kick out a house name every second. Your sorting hat will be efficent, but there might not be enough time to move the hat onto another head! Instead we can make use of the button in the loop:
+
+```python
+while True:
+    if pibrella.button.read():
+        randomgenerator()
+```
+Now save and run your code. This time the programwill wait for the button to be pressed before it calls the function. 
 

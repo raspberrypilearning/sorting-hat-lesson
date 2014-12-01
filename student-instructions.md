@@ -54,4 +54,29 @@ random.randint(1, 4) will return a random integer between 1 and 4.
 
 ## If, Elif and Else
 
+Now that your code will generate a random number, you will need to set the conditions for what happens if the number that is generated equals 1. To do this in python, we can use the word `if`.
+
+```python
+    if number == 1:
+        os.system('mpg123 gryffindor.mp3')
+        time.sleep(1)
+```
+
+The first line states that if the number (which is the variable containing the random integer between 1 and 4) is equal to (we use `==` in python to represent equal to) 1, then ply the gryffindor audio file. Then wait for 1 second.
+
+Let's set the condition for the number 2.
+
+```python
+    elif number == 2:
+        os.system('mpg123 hufflepuff.mp3')
+        time.sleep(1)
+```
+
+This time we have used the word `elif` this means **else if**. Else if the bumber is equal to 2 then play the hufflepuff audio file. 
+
+What would you type for the number 3 and the number 4?
+
+## The program loop
+
+
 

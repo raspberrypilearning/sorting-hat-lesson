@@ -92,5 +92,5 @@ while True:
     if pibrella.button.read():
         randomgenerator()
 ```
-Now save and run your code. This time the programwill wait for the button to be pressed before it calls the function. 
+Now save and run your code. This time the program will wait for the button to be pressed before it calls the function. 
 

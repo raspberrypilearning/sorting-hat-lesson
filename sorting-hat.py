@@ -23,4 +23,4 @@ def randomgenerator():
 
 while True:
   if pibrella.button.read():
-      rnadomgenerator()
+      randomgenerator()

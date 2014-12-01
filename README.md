@@ -8,7 +8,9 @@ In this lesson, students will create a Raspberry Pi powered Harry Potter style s
 
 It is assumed that students have prior knowledge of the programming concepts loops, conditionals and functions in Python. Alternatively it can also be achieved using Scratch.
 
-## Learning Outcomes
+## Students will learn
+- How to create a random group generator based on the Harry Potter Sorting Hat.
+- How to use functions, variables, randomisation, conditionals and loops.
 
 ## Computing Program of Study Met
 KS2:

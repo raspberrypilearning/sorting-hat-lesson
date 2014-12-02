@@ -27,7 +27,7 @@ In this lesson, students will create a Raspberry Pi powered Harry Potter style s
 Read pages pages 85 - 97 from [Harry Potter and the Philosopher's Stone](http://www.amazon.co.uk/Harry-Potter-Philosophers-Stone-Rowling/dp/0747558191) to the class (this could have been set as homework from the priovous lesson) or alternatively if you have access to the Harry Potter and the Philosopher's Stone Film, play the sorting hat clip. You could also ask students to sort themselves into the four houses of ravenclaw, slytherin, hufflepuff and gryffindor just for fun and discuss their reasoning. 
 
 ## Main Development
-1. Demonstrate the final sorting hat project to the class by selecting students, asking them to wear the hat and then asking another student to press the button. Discuss with students what do they think is needed to make the project. Draw out through questioning and list on the board all the component pieces. Ask students to tell you if they are hardware or software related.
+1. Demonstrate [the final sorting hat project](https://www.youtube.com/watch?v=fUuqTUiCUsM) to the class by selecting students, asking them to wear the hat and then asking another student to press the button. Discuss with students what do they think is needed to make the project. Draw out through questioning and list on the board all the component pieces. Ask students to tell you if they are hardware or software related.
 
 1. Direct students to attach their Pibrella to the Raspberry Pi. See [student instructions](student-instructions.md) to complete this task.
  *WARNING! The Raspberry Pi must be shutdown before connecting to GPIO.* 

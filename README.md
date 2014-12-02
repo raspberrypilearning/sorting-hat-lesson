@@ -46,4 +46,4 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ***Naughty or Nice Lessons*** by Raspberry Pi Certified Educator [Simon Johnson](http://teachwithict.weebly.com/harry-potter-sorting-hat.html#sthash.NmynO2x0.kkvB3WUr.dpuf) and the [Raspberry Pi Foundation](http://raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Based on a work at https://github.com/raspberrypilearning/sorting-hat-lesson
+Based on a work at https://github.com/raspberrypilearning/sorting-hat-lesson & http://teachwithict.weebly.com/harry-potter-sorting-hat.html#sthash.LdH8UJyC.dpbs 

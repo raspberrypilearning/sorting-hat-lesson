@@ -6,7 +6,7 @@
 
 Sorting children into houses can be time consuming, but with magic Hogwarts were able to sort their yearly intake into houses super easily. Let's replace the magic with some code to achieve the same result!
 
-In this lesson, students will create a Raspberry Pi powered Harry Potter style sorting hat. Students will also learn how to connect a physical button to the Pibrella and program it to control the sorting hat. 
+In this lesson, students will create a Raspberry Pi powered Harry Potter style sorting hat using the button on a pibella add on board.
 
 It is assumed that students have prior knowledge of the programming concepts loops, conditionals and functions in Python. Alternatively it can also be achieved using Scratch.
 

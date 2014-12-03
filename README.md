@@ -1,5 +1,7 @@
 # Raspberry Pi Sorting Hat
 
+![](images/HOC_Logo_200px.png)
+
 ## Introduction
 
 Sorting children into houses can be time consuming, but with magic Hogwarts were able to sort their yearly intake into houses super easily. Let's replace the magic with some code to achieve the same result!

@@ -1,4 +1,4 @@
-# Student Instructions
+# Student instructions
 
 ## Setting up your [Pibrella](http://pibrella.com/#setup)
 
@@ -11,19 +11,19 @@ You will need a Pibrella board attached to the GPIO pins on your Raspberry Pi fo
 
 Now add the rest of the peripherals to your Raspberry Pi, add the power to turn it on, and wait for it to boot. Log into your Raspberry Pi when prompted with the login: `pi` and the password `raspberry`.
 
-## Load IDLE3 as the Super User
+## Load IDLE3 as the superuser
 
-1. Load the graphical environment by typing `startx`. Once the desktop has loaded, double clicking on the **LXTerminal** desktop icon. 
-1. Then type `sudo idle3 &` to load the Python 3 programming environment IDLE3 as the super user, so that you can access the GPIO pins with your code.
+1. Load the graphical environment by typing `startx`. Once the desktop has loaded, double-click on the **LXTerminal** desktop icon. 
+1. Then type `sudo idle3 &` to load the Python 3 programming environment IDLE3 as the superuser, so that you can access the GPIO pins with your code.
   *Note that this lesson uses Python 3. If you open IDLE then your code may not run.*
   
-  **IDLE3** is an application or environment that allows you to write a simple program using the programming language Python. It   allows you to write, edit and run code. 
+  **IDLE3** is an application or environment that allows you to write a simple program using the programming language Python. It allows you to write, edit and run code. 
 
-1. Click on **File** and **New Window** to open a blank text editor window. Then click on **File** and **Save As**. Save your file as `sorting-hat.py`.
+1. Click on **File** and **New Window** to open a blank text editor window, then click on **File** and **Save As**. Save your file as `sorting-hat.py`.
 
-## Importing Python Libraries
+## Importing Python libraries
 
-To begin your sorting hat program you will need to import all the python libraries that allow you to control various aspects of your code. For example, you will need the time library in order to add pauses or sleeps to your code. You will also need the random library so that a house can be selected at random.
+To begin your sorting hat program you will need to import all the Python libraries that allow you to control various aspects of your code. For example, you will need the `time` library in order to add pauses or sleeps to your code. You will also need the `random` library so that a house can be selected at random.
 
  ```python
  import pibrella
@@ -32,29 +32,30 @@ To begin your sorting hat program you will need to import all the python librari
  import os
  ```
  
- You may not have used the python library `os` before. This allows you to execute a shell command from your code as if you were using the command line interface. You will need this in order to play an mp3 file.
+ You may not have used the Python library `os` before. This allows you to execute a shell command from your code as if you were using the command line interface. You will need this in order to play an mp3 file.
  
-## Defining a Function
+## Defining a function
 
-Next use a function in which to place your code. You can then call this function repeatedly inside a loop later on. To define a function in python use the word `def` followed by a name for the function, for example:
+Next, create a function in which to place your code. You can then call this function repeatedly inside a loop later on. To define a function in Python use the word `def` followed by a name for the function, for example:
 
 ```python
 def randomgenerator():
 ```
 
-## Using a Variable to store a Random Number
+## Using a variable to store a random number
 
-In this program you want to pick a house at random. So we are going to assign each house a number between 1 and 4. The number will be selected at random and stored inside a variable. Much like functions, you could use any variable name. Here we have used the name `number`. 
+In this program you want to pick a house at random, so we are going to assign each house a number between 1 and 4. The number will be selected at random and stored inside a variable. Much like functions, you could use any variable name; here we have used the name `number`. 
 
 ```python
 def randomgenerator():
     number = random.randint(1, 4)
 ```
-random.randint(1, 4) will return a random integer between 1 and 4. 
 
-## If, Elif and Else
+`random.randint(1, 4)` will return a random integer between 1 and 4. 
 
-Now that your code will generate a random number, you will need to set the conditions for what happens if the number that is generated equals 1. To do this in python, we can use the word `if`.
+## If, elif and else
+
+Now that your code will generate a random number, you will need to set the conditions for what happens if the number that is generated equals 1. To do this in Python, we can use the word `if`.
 
 ```python
     if number == 1:
@@ -62,7 +63,7 @@ Now that your code will generate a random number, you will need to set the condi
         time.sleep(1)
 ```
 
-The first line states that if the number (which is the variable containing the random integer between 1 and 4) is equal to (we use `==` in python to represent equal to) 1, then ply the gryffindor audio file. Then wait for 1 second.
+The first line states that if the number (which is the variable containing the random integer between 1 and 4) is equal to 1 (`==` in Python represents 'equal to'), play the Gryffindor audio file then wait for 1 second.
 
 Let's set the condition for the number 2.
 
@@ -72,12 +73,13 @@ Let's set the condition for the number 2.
         time.sleep(1)
 ```
 
-This time we have used the word `elif` this means **else if**. Else if the bumber is equal to 2 then play the hufflepuff audio file. 
+This time we have used the word `elif`; this means **else if**. Else if the number is equal to 2, then play the Hufflepuff audio file. 
 
 What would you type for the number 3 and the number 4?
 
 ## The program loop
-If you save and run your program now nothing will happen. That is because all the code is stored inside a function. You now need to write the code that will call that function. As you want to be able to press the button again and again each time randomly selecting a house, the function will need to be called again and again. We can use a `while True:` loop to do this.
+
+If you save and run your program now nothing will happen. That is because all the code is stored inside a function. You now need to write the code that will call that function. As you want to be able to press the button again and again, each time randomly selecting a house, the function will need to be called again and again. We can use a `while True:` loop to do this.
 
 You could just type:
 
@@ -85,13 +87,15 @@ You could just type:
 while True:
     randomgenerator()
 ```
-then save and run your python file by clicking on **Run** and **Run Module**. Your random generator will kick out a house name every second. Your sorting hat will be efficent, but there might not be enough time to move the hat onto another head! Instead we can make use of the button in the loop:
+
+then save and run your Python file by clicking on **Run** and **Run Module**. Your random generator will kick out a house name every second. Your sorting hat will be efficient, but there might not be enough time to move the hat onto another head! Instead, we can make use of the button in the loop:
 
 ```python
 while True:
     if pibrella.button.read():
         randomgenerator()
 ```
+
 Now save and run your code. This time the program will wait for the button to be pressed before it calls the function. 
 
 ![](images/sorting-hat-code.png)

@@ -1,15 +1,4 @@
-## Students will learn
+By completing this exercise students will learn:
 
 - How to create a random group generator based on the Harry Potter sorting hat.
 - How to use functions, variables, randomisation, conditionals, and loops.
-
-## Computing program of study met
-
-KS2:
-- Design, write and debug programs that accomplish specific goals; solve problems by breaking them into smaller parts. 
-- Select, use and combine a variety of software on a range of digital devices to design and create a range of programs.
-- Use sequence, selection and repetition in programs; work with variables and various forms of input and output.
-- Use logical reasoning to explain how some simple algorithms work; detect and correct errors in algorithms and programs.
-
-KS3:
-- Use two or more programming languages, at least one of which is textual, to solve a variety of computational problems. 

@@ -1,8 +1,4 @@
-# Raspberry Pi sorting hat
-
-![](images/HOC_Logo_200px.png)
-
-## Introduction
+# Raspberry Pi Sorting Hat
 
 Sorting children into houses can be time-consuming, but with magic Hogwarts were able to sort their yearly intake into houses really easily. Let's replace the magic with some code to achieve the same result!
 
@@ -18,13 +14,15 @@ It is assumed that students have prior knowledge of the programming concepts of 
 ## Computing program of study met
 
 KS2:
-- Design, write and debug programs that accomplish specific goals; solve problems by breaking them into smaller parts. 
+
+- Design, write and debug programs that accomplish specific goals; solve problems by breaking them into smaller parts.
 - Select, use and combine a variety of software on a range of digital devices to design and create a range of programs.
 - Use sequence, selection and repetition in programs; work with variables and various forms of input and output.
 - Use logical reasoning to explain how some simple algorithms work; detect and correct errors in algorithms and programs.
 
 KS3:
-- Use two or more programming languages, at least one of which is textual, to solve a variety of computational problems. 
+
+- Use two or more programming languages, at least one of which is textual, to solve a variety of computational problems.
 
 ## Resources
 
@@ -42,14 +40,14 @@ See [teachers setup instructions](teachers-instructions.md) for more information
 
 ## Lesson Plan
 
-- [Lesson 1: Raspberry Pi Sorting Hat](lesson-1.md)
+- [Lesson 1: Raspberry Pi Sorting Hat](lesson-1/lesson.md)
 
 ## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
-![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+[![Creative Commons Licence](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-***Naughty or Nice Lessons*** by Raspberry Pi Certified Educator [Simon Johnson](http://teachwithict.weebly.com/harry-potter-sorting-hat.html#sthash.NmynO2x0.kkvB3WUr.dpuf) and the [Raspberry Pi Foundation](http://raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Sorting Hat Lesson*** by Raspberry Pi Certified Educator [Simon Johnson](http://teachwithict.weebly.com/harry-potter-sorting-hat.html#sthash.NmynO2x0.kkvB3WUr.dpuf) and the [Raspberry Pi Foundation](http://raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/raspberrypilearning/sorting-hat-lesson & http://teachwithict.weebly.com/harry-potter-sorting-hat.html

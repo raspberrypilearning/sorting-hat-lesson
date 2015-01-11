@@ -36,7 +36,7 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 - 1 x speakers or headphones
 - Hat
 
-See [teachers setup instructions](teachers-instructions.md) for more information.
+See [teachers setup instructions](teacher-instructions.md) for more information.
 
 ## Lesson Plan
 

@@ -1,4 +1,6 @@
-# Student instructions
+# Make a Sorting Hat
+
+In this lesson you'll use Python and the Pibrella to create a Sorting Hat application on the Raspberry Pi, so that when you press the button on the Pibrell, it will speak out the name of a house is selected at random.
 
 ## Setting up your Pibrella
 

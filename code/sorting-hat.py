@@ -7,20 +7,20 @@ import random
 import os
 
 def randomgenerator():
-    number = random.randint(1,4)
+    number = random.randint(1, 4)
     if number == 1:
-        os.system ('mpg123 Gryffindor.mp3')
+        os.system('mpg123 Gryffindor.mp3')
         time.sleep(1)
     elif number == 2:
-        os.system ('mpg123 Hufflepuff.mp3')
+        os.system('mpg123 Hufflepuff.mp3')
         time.sleep(1)
     elif number == 3:
-        os.system ('mpg123 Ravenclaw.mp3')
+        os.system('mpg123 Ravenclaw.mp3')
         time.sleep(1)
     else:
-        os.system ('mpg123 Slytherin.mp3')
+        os.system('mpg123 Slytherin.mp3')
         time.sleep(1)
 
 while True:
-  if pibrella.button.read():
-      randomgenerator()
+    if pibrella.button.read():
+        randomgenerator()

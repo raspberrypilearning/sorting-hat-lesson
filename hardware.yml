@@ -1,3 +1,6 @@
 - name: Pibrella
   img: pibrella
   url: http://pibrella.com/
+- name: Headphones or a speaker
+  img: headphones-speaker
+  url: http://thepihut.com/products/mini-portable-speaker-for-the-raspberry-pi

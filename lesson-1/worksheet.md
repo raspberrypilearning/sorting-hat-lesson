@@ -101,3 +101,10 @@ while True:
 Now save and run your code. This time the program will wait for the button to be pressed before it calls the function.
 
 ![](images/sorting-hat-code.png)
+
+## What next?
+
+- Try recording your own sounds!
+- What else could you use the same code for?
+- Can you do the same project with less code? How could it be more efficient?
+- Can you do the same project without a Pibrella? Try using a button and a breadboard!

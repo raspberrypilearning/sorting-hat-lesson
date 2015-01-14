@@ -7,19 +7,19 @@ In this lesson, students will create a Raspberry Pi-powered Harry Potter-style s
 - Know that computer programs can make decisions, and that a simple form of decision is called a conditional (if, else and else if).
 - Be able to devise a program to randomly sort students into different groups or houses.
 
-## Learning outcomes:
+## Learning outcomes
 
-**All students are able to:**
+### All students are able to:
 
 - Use an `if` statement.
 - Begin to write a function containing conditionals (if, else and else if) to randomly return a house name, with support.
 
-**Most students are able to:**
+### Most students are able to:
 
 - Modify code in the `if` branches to create different execution paths.
 - Write a function containing conditionals (if, else and else if) to randomly return a house name, with minimal support.
 
-**Some students are able to:**
+### Some students are able to:
 
 - Write a complete program in Python 3 using functions, while and for loops, and conditionals (if, else and else if) with minimal support.
 
@@ -46,9 +46,9 @@ Read pages 85-97 from [Harry Potter and the Philosopher's Stone](http://www.amaz
 
 1. Next, students should load the graphical environment by typing `startx`. Once the desktop has loaded, students should be directed to load LXTerminal by double-clicking on the desktop icon. Once loaded, they should type `sudo idle3 &` to load the Python 3 programming environment IDLE3 as the superuser, so that they can access the GPIO pins with their code.
 
-    *Note that this series of lessons uses Python 3. If students run IDLE then their code may not run.*
+   *Note that this series of lessons uses IDLE3 for Python 3. If students run IDLE for Python 2 then their code may not run.*
 
-    Explain to students that **IDLE3** is an application or environment that allows you to write a simple program using the programming language Python. It allows you to write, edit and run code.
+   Explain to students that **IDLE3** is an application or environment that allows you to write a simple program using the programming language Python. It allows you to write, edit and run code.
 
 1. Ask students to click on **File** and **New Window** to open a blank text editor window. They should be directed to then click on **File** and **Save As**. They should save their file as `sorting-hat.py`.
 

@@ -36,7 +36,7 @@ Read pages 85-97 from [Harry Potter and the Philosopher's Stone](http://www.amaz
 
 1. Demonstrate [the final sorting hat project](https://www.youtube.com/watch?v=fUuqTUiCUsM) to the class by selecting students, asking them to wear the hat and then asking another student to press the button. Discuss with students what they think is needed to make the project. Draw out through questioning, and list on the board, all the component pieces. Ask students to tell you if they are hardware- or software-related.
 
-1. Direct students to attach their Pibrella to the Raspberry Pi. See [student instructions](student-instructions.md) to complete this task.
+1. Direct students to attach their Pibrella to the Raspberry Pi. See [student worksheet](worksheet.md) to complete this task.
 
     *WARNING! The Raspberry Pi must be shut down before connecting to GPIO.*
 
@@ -65,7 +65,7 @@ Read pages 85-97 from [Harry Potter and the Philosopher's Stone](http://www.amaz
 
 1. At this point you could set the students the task of trying to create the program depending on their ability and prior learning. You may wish to write out parts of the code and ask them to complete just the conditionals.
 
-    All the steps to completing this program can be found in the [student instructions](student-instructions.md). The final code is also available to you.
+    All the steps to completing this program can be found in the [student worksheet](worksheet.md). The final code is also available to you.
 
 ## Plenary
 

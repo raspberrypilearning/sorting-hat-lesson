@@ -38,8 +38,6 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 - 1 x speakers or headphones
 - Hat
 
-See [teachers setup instructions](teacher-instructions.md) for more information.
-
 ## Lesson Plan
 
 - [Lesson 1: Raspberry Pi Sorting Hat](lesson-1/lesson.md)

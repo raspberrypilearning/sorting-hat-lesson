@@ -49,6 +49,7 @@ Install ScratchGPIO with the following command:
 
 ```bash
 wget http://goo.gl/xzJlz7 -O isgh6.sh
+sudo bash isgh6.sh
 ```
 
 and you'll find the ScratchGPIO icon on the desktop.

@@ -36,7 +36,7 @@ If you get an error saying `No module named pibrella` then check you entered the
 Test you have the `mpg123` installed by entering the following command:
 
 ```bash
-sudo python3 -c "import pibrella"
+mpg123
 ```
 
 If you get an error saying `The program 'mpg123' is currently not installed.` then check you entered the commands above correctly.

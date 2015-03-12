@@ -2,13 +2,6 @@
 
 This lesson can be completed using Python or Scratch.
 
-## Python
-
-You'll need to make sure you have the following packages installed to proceed with the workshop.
-
-- python3-pibrella
-- mpg123
-
 You'll need to be online to install packages.
 
 First update and upgrade your system. Enter the following commands in to the terminal:
@@ -17,6 +10,13 @@ First update and upgrade your system. Enter the following commands in to the ter
 sudo apt-get update
 sudo apt-get upgrade
 ```
+
+## Option 1: Python
+
+You'll need to make sure you have the following packages installed to proceed with the workshop.
+
+- python3-pibrella
+- mpg123
 
 Now install the packages you'll need:
 
@@ -41,11 +41,11 @@ sudo python3 -c "import pibrella"
 
 If you get an error saying `The program 'mpg123' is currently not installed.` then check you entered the commands above correctly.
 
-## Scratch
+## Option 2: Scratch
 
 Alternatively, you could use ScratchGPIO instead of Python, in which case the above packages are unneccessary but you'll need to install ScratchGPIO.
 
-Install ScratchGPIO with the following command:
+Install ScratchGPIO with the following commands:
 
 ```bash
 wget http://goo.gl/xzJlz7 -O isgh6.sh
@@ -72,4 +72,4 @@ Or save the files from the web browser:
 - [hufflepuff.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/hufflepuff.mp3)
 - [gryffindor.mp3](http://teachwithict.weebly.com/uploads/5/5/8/2/5582303/gryffindor.mp3)
 
-Alternatively, students could make their own.
+Alternatively, students could record their own sounds.

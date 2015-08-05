@@ -4,7 +4,7 @@ In this lesson, students will create a Raspberry Pi-powered Harry Potter-style S
 
 ## Learning objectives
 
-- Know that computer programs can make decisions, and that a simple form of decision is called a conditional (if, else and else if).
+- Know that computer programs can make decisions, and that a simple form of decision is called a conditional (if, else, and else if).
 - Be able to devise a program to randomly sort students into different groups or houses.
 
 ## Learning outcomes

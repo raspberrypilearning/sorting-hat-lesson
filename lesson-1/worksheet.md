@@ -17,7 +17,7 @@ Now add the rest of the peripherals to your Raspberry Pi, add the power to turn 
 1. Load the graphical environment by typing `startx`. Once the desktop has loaded, double-click on the **LXTerminal** desktop icon. 
 1. Then type `sudo idle3 &` to load the Python 3 programming environment IDLE3 as the superuser, so that you can access the GPIO pins with your code.
 
-    *Note that this lesson uses Python 3. If you open IDLE then your code may not run.*
+    *Note that this lesson uses Python 3. If you open IDLE instead of IDLE3, your code may not run.*
   
     **IDLE3** is an application or environment that allows you to write a simple program using the programming language Python. It allows you to write, edit and run code. 
 
@@ -25,7 +25,7 @@ Now add the rest of the peripherals to your Raspberry Pi, add the power to turn 
 
 ## Importing Python libraries
 
-To begin your sorting hat program you will need to import all the Python libraries that allow you to control various aspects of your code. For example, you will need the `time` library in order to add pauses or sleeps to your code. You will also need the `random` library so that a house can be selected at random.
+To begin your Sorting Hat program you will need to import all the Python libraries that allow you to control various aspects of your code. For example, you will need the `time` library in order to add pauses or sleeps to your code. You will also need the `random` library so that a house can be selected at random.
 
  ```python
  import pibrella
@@ -90,7 +90,7 @@ while True:
     randomgenerator()
 ```
 
-then save and run your Python file by clicking on **Run** and **Run Module**. Your random generator will kick out a house name every second. Your sorting hat will be efficient, but there might not be enough time to move the hat onto another head! Instead, we can make use of the button in the loop:
+then save and run your Python file by clicking on **Run** and **Run Module**. Your random generator will kick out a house name every second. Your Sorting Hat will be efficient, but there might not be enough time to move the hat onto another head! Instead, we can make use of the button in the loop:
 
 ```python
 while True:

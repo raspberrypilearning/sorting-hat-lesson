@@ -38,15 +38,15 @@ Read the Sorting Hat passage from *Harry Potter and the Philosopher's Stone*, wh
 
 1. Direct students to attach their Pibrella to the Raspberry Pi. See [student worksheet](worksheet.md) to complete this task.
 
-    *WARNING! The Raspberry Pi must be shut down before connecting to GPIO.*
+    **WARNING! The Raspberry Pi must be shut down before connecting to GPIO.**
 
 1. Ask students to set up the rest of their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`.
 
-    *Note that students will not see any text when typing the password but assure them it is working. Why do they think this might be the case? Hint: what might happen if someone was looking over their shoulder?*
+    **Note that students will not see any text when typing the password but assure them it is working. Why do they think this might be the case? Hint: what might happen if someone was looking over their shoulder?**
 
 1. Next, students should load the graphical environment by typing `startx`. Once the desktop has loaded, students should be directed to load LXTerminal by double-clicking on the desktop icon. Once loaded, they should type `sudo idle3 &` to load the Python 3 programming environment IDLE3 as the superuser, so that they can access the GPIO pins with their code.
 
-   *Note that this series of lessons uses IDLE3 for Python 3. If students run IDLE for Python 2 then their code may not run.*
+   **Note that this series of lessons uses IDLE3 for Python 3. If students run IDLE for Python 2 then their code may not run.**
 
    Explain to students that **IDLE3** is an application or environment that allows you to write a simple program using the programming language Python. It allows you to write, edit and run code.
 

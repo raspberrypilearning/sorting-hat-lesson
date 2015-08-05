@@ -30,7 +30,7 @@ In this lesson, students will create a Raspberry Pi-powered Harry Potter-style S
 
 ## Starter
 
-Read the Sorting Hat passage from *Harry Potter and the Philosopher's Stone*, which is found on pages 85-97 in [this edition](http://www.amazon.co.uk/Harry-Potter-Philosophers-Stone-Rowling/dp/0747558191) to the class (this could have been set as homework from the previous lesson); alternatively, if you have access to the film version of *Harry Potter and the Philosopher's Stone*, play the Sorting Hat clip. You could also ask students to sort themselves into the four houses of Ravenclaw, Slytherin, Hufflepuff and Gryffindor just for fun and discuss their reasoning.
+Read the Sorting Hat passage from *Harry Potter and the Philosopher's Stone*, which is found on pages 85-97 in [this edition](http://www.amazon.co.uk/Harry-Potter-Philosophers-Stone-Rowling/dp/0747558191), to the class (this could have been set as homework from the previous lesson); alternatively, if you have access to the film version of *Harry Potter and the Philosopher's Stone*, play the Sorting Hat clip. You could also ask students to sort themselves into the four houses of Ravenclaw, Slytherin, Hufflepuff and Gryffindor just for fun and discuss their reasoning.
 
 ## Main development
 

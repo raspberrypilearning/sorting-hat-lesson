@@ -26,15 +26,15 @@ In this lesson, students will create a Raspberry Pi-powered Harry Potter-style s
 ## Lesson Summary
 
 - Introduction to setting up a Raspberry Pi
-- Writing a Python program using functions, loops and conditionals.
+- Writing a Python program using functions, loops, and conditionals.
 
 ## Starter
 
-Read pages 85-97 from [Harry Potter and the Philosopher's Stone](http://www.amazon.co.uk/Harry-Potter-Philosophers-Stone-Rowling/dp/0747558191) to the class (this could have been set as homework from the previous lesson); alternatively, if you have access to the Harry Potter and the Philosopher's Stone film, play the sorting hat clip. You could also ask students to sort themselves into the four houses of Ravenclaw, Slytherin, Hufflepuff and Gryffindor just for fun and discuss their reasoning.
+Read the Sorting Hat passage from *Harry Potter and the Philosopher's Stone*, which is found on pages 85-97 in [this edition](http://www.amazon.co.uk/Harry-Potter-Philosophers-Stone-Rowling/dp/0747558191) to the class (this could have been set as homework from the previous lesson); alternatively, if you have access to the film version of *Harry Potter and the Philosopher's Stone*, play the Sorting Hat clip. You could also ask students to sort themselves into the four houses of Ravenclaw, Slytherin, Hufflepuff and Gryffindor just for fun and discuss their reasoning.
 
 ## Main development
 
-1. Demonstrate [the final sorting hat project](https://www.youtube.com/watch?v=fUuqTUiCUsM) to the class by selecting students, asking them to wear the hat and then asking another student to press the button. Discuss with students what they think is needed to make the project. Draw out through questioning, and list on the board, all the component pieces. Ask students to tell you if they are hardware- or software-related.
+1. Demonstrate [the final Sorting Hat project](https://www.youtube.com/watch?v=fUuqTUiCUsM) to the class by selecting students, asking them to wear the hat and then asking another student to press the button. Discuss with students what they think is needed to make the project. Draw out through questioning, and list on the board, all the component pieces. Ask students to tell you if they are hardware- or software-related.
 
 1. Direct students to attach their Pibrella to the Raspberry Pi. See [student worksheet](worksheet.md) to complete this task.
 

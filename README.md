@@ -10,7 +10,7 @@ It is assumed that students have prior knowledge of the programming concepts of 
 
 ## Students will learn
 
-- How to create a random group generator based on the Harry Potter sorting hat.
+- How to create a random group generator based on the Harry Potter Sorting Hat.
 - How to use functions, variables, randomisation, conditionals, and loops.
 
 ## Computing program of study met

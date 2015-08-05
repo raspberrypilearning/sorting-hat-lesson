@@ -1,6 +1,6 @@
 # Lesson 1 - Sorting hat
 
-In this lesson, students will create a Raspberry Pi-powered Harry Potter-style sorting hat. Students will also learn how to connect a physical button to the Pibrella and program it to control the sorting hat.
+In this lesson, students will create a Raspberry Pi-powered Harry Potter-style Sorting Hat. Students will also learn how to connect a physical button to the Pibrella and program it to control the Sorting Hat.
 
 ## Learning objectives
 
